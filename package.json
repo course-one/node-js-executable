@@ -1,0 +1,15 @@
+{
+  "name": "node-js-executable",
+  "version": "1.0.0",
+  "description": "A boilerplate to create JavaScript binary executable files using Node.",
+  "bin": "server.js",
+  "pkg": {
+    "assets": [ "node_modules/**/*", "src/**/*" ],
+    "targets": [ "node12-macos-x64", "node10-win-x64" ]
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "get-port": "^5.1.1",
+    "open": "^7.2.1"
+  }
+}
